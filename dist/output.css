@@ -697,6 +697,14 @@ video {
   height: 400px;
 }
 
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-\[550px\] {
+  height: 550px;
+}
+
 .w-\[567px\] {
   width: 567px;
 }
@@ -953,6 +961,16 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-red-950 {
+  --tw-text-opacity: 1;
+  color: rgb(69 10 10 / var(--tw-text-opacity));
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
 .shadow-xl {
