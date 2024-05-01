@@ -1,36 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weilbach Autos</title>
-    <link rel="stylesheet" href="dist/output.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Merienda:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/swiper-bundle.min.css">
-</head>
-<body class="bg-gray-100">
-    <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white">Weilbacher Automobile</header>
- <main class="max-w-[1920px] mx-auto bg-white overflow-hidden" >
-    <div class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10" ></div>
-    <section class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed lg:rounded-bl-[290px] relative z-20 ">
-        <div class="container mx-auto h-full flex items-center justify-center xl:justify-start">
-            <div class="hero__text w-[567px] flex flex-col items-center text-center xl:text-left lg:items-start">
-                <h1 class="h1 mb-8 text-white">Dare to be Different, Drive with Passion</h1>
-                <p class="mb-8 text-gray-400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil hic iusto eum consequuntur adipisci quam, harum impedit magnam omnis ratione!</p>
-                <button class="btn btn-primary mx-auto xl:mx-0">Get in Touch
-                    <i class="ri-arrow-right-line text-accent"></i>
-                </button>
+    <link rel="stylesheet" href="dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Merienda:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  </head>
+  <body class="bg-gray-100">
+    <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white">
+      <div class="container mx-auto flex justify-between h-full items-center">
+        <a href="#">
+          <img src="Assets/logo.jpeg" alt="" />
+        </a>
+        <nav>
+            <div class="cursor-pointer lg:hidden" id="nav_trigger_btn">
+                <i class="ri-menu-5-line text-4xl text-primary"></i>
             </div>
+          <ul
+            class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300" id="nav_menu"
+          >
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Our Work</a></li>
+            <li><a href="#">Gallary</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
+      <div
+        class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10"
+      ></div>
+      <section
+        class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed lg:rounded-bl-[290px] relative z-20"
+      >
+        <div
+          class="container mx-auto h-full flex items-center justify-center xl:justify-start"
+        >
+          <div
+            class="hero__text w-[567px] flex flex-col items-center text-center xl:text-left lg:items-start"
+          >
+            <h1 class="h1 mb-8 text-white">
+              Dare to be Different, Drive with Passion
+            </h1>
+            <p class="mb-8 text-gray-400">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
+              hic iusto eum consequuntur adipisci quam, harum impedit magnam
+              omnis ratione!
+            </p>
+            <button class="btn btn-primary mx-auto xl:mx-0">
+              Get in Touch
+              <i class="ri-arrow-right-line text-accent"></i>
+            </button>
+          </div>
         </div>
-    </section>
-    <div class="h-[3000px]"></div>
- </main>
- 
-<script src="js/scrollreveal.min.js"></script>
-<script src="js/swiper-bundle.min.js"></script>
-<script src="js/main.js"></script>
-</body>
+      </section>
+      <div class="h-[3000px]"></div>
+    </main>
+
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
