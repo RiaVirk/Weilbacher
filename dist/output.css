@@ -657,6 +657,10 @@ video {
   margin-top: 80px;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -685,12 +689,24 @@ video {
   height: 100%;
 }
 
+.h-\[93px\] {
+  height: 93px;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
 .w-\[567px\] {
   width: 567px;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-\[93px\] {
+  width: 93px;
 }
 
 .max-w-\[1920px\] {
@@ -707,6 +723,10 @@ video {
 
 .max-w-xl {
   max-width: 36rem;
+}
+
+.max-w-\[370px\] {
+  max-width: 370px;
 }
 
 .flex-1 {
@@ -755,6 +775,18 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-\[70px\] {
+  border-radius: 70px;
+}
+
+.rounded-\[30px\] {
+  border-radius: 30px;
 }
 
 .rounded-l-lg {
@@ -834,6 +866,15 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-accent\/15 {
+  background-color: rgb(205 162 116 / 0.15);
+}
+
+.bg-accent-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 240 236 / var(--tw-bg-opacity));
+}
+
 .bg-hero {
   background-image: url(/Assets/Hero/bg2.jpg);
 }
@@ -854,6 +895,19 @@ video {
   padding: 0px;
 }
 
+.p-9 {
+  padding: 2.25rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -868,8 +922,17 @@ video {
   line-height: 1;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-medium {
   font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-accent {
@@ -1071,6 +1134,10 @@ h1,h2,h3,h4,h5,h6 {
 
   .xl\:flex-row {
     flex-direction: row;
+  }
+
+  .xl\:items-start {
+    align-items: flex-start;
   }
 
   .xl\:justify-start {
