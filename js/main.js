@@ -25,29 +25,21 @@ const swiper = new Swiper('.swiper', {
         },
     }
 })
-// const swiper = new Swiper(".swiper", {
-//     effect: "cards",
-//     grabCursor: true,
-//   });
 
-//   const swiper = new Swiper(".swiper", {
-//     effect: "coverflow",
-//     grabCursor: true,
-//     centeredSlides: true,
-//     slidesPerView: "auto",
-//     coverflowEffect: {
-//       rotate: 50,
-//       stretch: 0,
-//       depth: 100,
-//       modifier: 1,
-//       slideShadows: true,
-//     },
-//     pagination: {
-//       el: ".swiper-pagination",
-//     },
-//   });
 
-// const swiper = new Swiper(".swiper", {
-//     watchSlidesProgress: true,
-//     slidesPerView: 3,
-//   });
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
